@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 import sys
 import json
@@ -218,8 +220,12 @@ class Yusub:
 			# print( e)
 			pass
 
-
-try:
-	Yusub(sys.argv[1])
-except:
-	print("usage : python yusub.py [target]")
+if sys.stdin.isatty() != True:
+	o = [i.strip() for i in sys.stdin.readlines()]
+	for i in o:
+		Yusub(i)
+else:
+	try:
+		Yusub(sys.argv[1])
+	except:
+		pass
