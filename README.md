@@ -8,3 +8,6 @@ just subdomain enumeration from yuyu scanner
 - yusub target.com 
 - cat targetlist.txt | yusub | some program u wanna run
 - yusub target.com | some program u wanna run
+
+## example
+- cat target | yusub | httpx > result.txt
