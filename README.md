@@ -10,4 +10,5 @@ just subdomain enumeration from yuyu scanner
 - yusub target.com | some program u wanna run
 
 ## example
-- cat target | yusub | httpx > result.txt
+- cat targetlist.txt | yusub | httpx > result.txt
+- yusub target.com | httpx
