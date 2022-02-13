@@ -1,6 +1,8 @@
 # yusub
 <img src="73b8307b2db44c617f4e8515ce67dd39.png">
+
 just subdomain enumeration from yuyu scanner 
+
 ## installation 
 - pip install -r requirements.txt
 - chmod +x yusub
