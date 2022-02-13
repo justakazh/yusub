@@ -11,4 +11,4 @@ just subdomain enumeration from yuyu scanner
 
 ## example
 - cat targetlist.txt | yusub | httpx > result.txt
-- yusub target.com | httpx
+- yusub target.com | httpx > result.txt
